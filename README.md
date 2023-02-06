@@ -1,4 +1,4 @@
-# SleekFlow - TodoItem CRUD API
+# TodoItem CRUD API
 Simple REST API to perform  CRUD operations on TodoItem model.
 
 ## Tools used

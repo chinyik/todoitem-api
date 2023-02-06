@@ -8,17 +8,19 @@ Simple REST API to perform  CRUD operations on TodoItem model.
 
 ## Database Schema
 **Table Name:** TodoItems
+
 | Column        | DataType                  |
 | ------------  | ------------              |
 | todoItemId    | INT (PK, AUTO-INCREMENT)  |
 | name          | VARCHAR(45)               |
-| description   |  VARCHAR(200)             |
+| description   | VARCHAR(200)              |
 | duedate       | DATETIME                  |
-| statu         |  VARCHAR(45)              |
+| status        | VARCHAR(45)               |
 
 ## API List
 ### ~/api/todoitems
 - Fetch all TodoItems either with filtering or sorting
+
 | Name               | Description                                                    | DataType     |
 | ------------       | ------------                                                   | ------------ |
 | nameFilter         | Filter TodoItems by name column                                | string       |
